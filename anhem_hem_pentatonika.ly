@@ -41,7 +41,7 @@ melody = \relative c'' {
   %\break
   
   \once \override HorizontalBracketText.text = \markup \small {{"1"} \tiny"1/2"}
-  c1^\markup \raise #5 {{ \italic "anhemitonska" } "pentatonika (sa polustupkama)"}
+  c1^\markup \raise #5 {{ \italic "anhemitonska" } "pentatonika (bez polustupke)"}
   \startGroup a\stopGroup
   \once \override HorizontalBracketText.text = \markup \small {{"1"} \tiny"1/2"}
   g\startGroup
@@ -67,8 +67,8 @@ melody = \relative c'' {
   %h\startGroup \parenthesize c\stopGroup
   %\break
   
-  h1^\markup \raise #2 {{ \italic "hemitonska" } "pentatonika (sa polustupkama)"}
-  a f e \override Staff.Parentheses.font-size = 0 \parenthesize c
+  h1^\markup \raise #2 {{ \italic "hemitonska" } "pentatonika (s polustupkama)"}
+  a f e c
   c4 s4
   \once \override HorizontalBracketText.text = "1/2"
   e4\startGroup s4 f4\stopGroup s4
