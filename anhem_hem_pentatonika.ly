@@ -68,7 +68,7 @@ melody = \relative c'' {
   %\break
   
   h1^\markup \raise #2 {{ \italic "hemitonska" } "pentatonika (sa polustupkama)"}
-  a f e c
+  a f e \override Staff.Parentheses.font-size = 0 \parenthesize c
   c4 s4
   \once \override HorizontalBracketText.text = "1/2"
   e4\startGroup s4 f4\stopGroup s4
