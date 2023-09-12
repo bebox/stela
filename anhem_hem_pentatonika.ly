@@ -15,6 +15,14 @@
   ragged-last = ##f
 }
 
+\layout {
+  \context {
+    \Voice
+    \consists "Horizontal_bracket_engraver"
+    \override HorizontalBracket.direction = #UP
+  }
+}
+
 global = {
   \key c \major
   %\set Score.timing = ##f
@@ -29,13 +37,19 @@ global = {
 melody = \relative c'' {
   \global
   ^"anhemitonska pentatonika (bez polustupke)"
+  \once \override HorizontalBracketText.text = "1 1/2"
   c1\startGroup a\stopGroup g e d \parenthesize c 
   c d e g a \parenthesize c
   \break
   
   ^"hemitonska pentatonika (sa polustupkama)"
-  c1 a g e d c
-  c d e g a \parenthesize c
+  h1 a f e c
+  c
+  \once \override HorizontalBracketText.text = "1/2"
+  e\startGroup f\stopGroup
+  g
+  \once \override HorizontalBracketText.text = "1/2"
+  h\startGroup \parenthesize c\stopGroup
 }
 
 \score {
