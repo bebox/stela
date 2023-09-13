@@ -2,7 +2,7 @@
 \include "deutsch.ly"
 
 \header {
-  title = "Pim tam teče bistra voda."
+  title = "Sim tam teče bistra voda."
   %subtitle = "II."
   composer = "Regica Smodek, Goričani."
 }
@@ -25,7 +25,17 @@ global = {
 chordNames = \chordmode {
   \global
   % Chords follow here.
-  
+  \set chordChanges = ##t
+  \semiGermanChords
+  e2:m
+  a:m
+  e:m
+  h:7
+  e4:m
+  a:m
+  e2:m
+  e4:m h:7
+  e2:m
 }
 
 melody = \relative c' {

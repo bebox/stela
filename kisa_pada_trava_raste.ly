@@ -25,6 +25,9 @@ global = {
 chordNames = \chordmode {
   \global
   % Chords follow here.
+  \set chordChanges = ##t
+  c2:m c:m c4:m f:m c2
+  c2:m f:m c:m g:7 c:m
   
 }
 

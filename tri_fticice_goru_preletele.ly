@@ -25,6 +25,13 @@ global = {
 chordNames = \chordmode {
   \global
   % Chords follow here.
+  \set chordChanges = ##t
+  \semiGermanChords
+  c4 c f c
+  f fis:dim7 g2:7
+  a2:m
+  f2
+  g2.:7 c4
   
 }
 
