@@ -2,7 +2,7 @@
 \include "deutsch.ly"
 
 \header {
-  title = "Zibu, haju."
+  title = "Zibu, haju"
   %subtitle = "II."
   composer = "Regica Smodek. 86. god. stara. Goričani."
 }
@@ -12,7 +12,7 @@
   indent = 0
   top-margin = 10
   markup-system-spacing = #'((basic-distance . 0.1) (padding . 2))
-  system-system-spacing = #'((basic-distance . 0.1) (padding . 4))
+  system-system-spacing = #'((basic-distance . 0.1) (padding . 3))
   %annotate-spacing = ##t
 }
 

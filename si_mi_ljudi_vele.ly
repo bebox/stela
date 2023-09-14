@@ -4,7 +4,7 @@
 \header {
   title = "Si mi ljudi vele"
   %subtitle = "II."
-  composer = "Selnica."
+  composer = "Selnica"
 }
 
 \paper {

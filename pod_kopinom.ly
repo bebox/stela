@@ -2,9 +2,9 @@
 \include "deutsch.ly"
 
 \header {
-  title = "Pod kopinom."
+  title = "Pod kopinom"
   %subtitle = "II."
-  composer = "Kotoriba."
+  composer = "Kotoriba"
 }
 
 \paper {

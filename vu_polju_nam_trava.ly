@@ -4,7 +4,7 @@
 \header {
   title = "Vu polju nam trava detelina"
   %subtitle = "II."
-  composer = "Kotoriba."
+  composer = "Kotoriba"
 }
 
 \paper {
