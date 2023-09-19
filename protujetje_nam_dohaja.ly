@@ -26,10 +26,10 @@ chordNames = \chordmode {
   \global
   % Chords follow here.
   \set chordChanges = ##t
-  c4. g:7 c g:7
-  c2. g:7
+  c4. g c g
+  c2. g
   c4. f
-  c g:7 c g:7
+  c g c g
   c2.
   
 }

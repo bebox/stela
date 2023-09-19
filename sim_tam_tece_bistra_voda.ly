@@ -4,7 +4,7 @@
 \header {
   title = "Sim tam teče bistra voda"
   %subtitle = "II."
-  composer = "Regica Smodek, Goričani."
+  composer = "Goričani"
 }
 
 \paper {
@@ -30,11 +30,11 @@ chordNames = \chordmode {
   e2:m
   a:m
   e:m
-  h:7
+  h
   e4:m
   a:m
   e2:m
-  e4:m h:7
+  e4:m h
   e2:m
 }
 
@@ -66,5 +66,21 @@ verse = \lyricmode {
     \new Staff { \melody }
     \addlyrics { \verse }
   >>
-  \layout { }
+   \layout {
+    \context {
+      \Lyrics
+      \override VerticalAxisGroup.staff-affinity = ##f
+      \override VerticalAxisGroup.staff-staff-spacing =
+        #'((basic-distance . 0)
+	   (minimum-distance . 2)
+	   (padding . 0.8))
+    }
+    \context {
+      \Staff
+      \override VerticalAxisGroup.staff-staff-spacing =
+        #'((basic-distance . 0)
+	   (minimum-distance . 2)
+	   (padding . 1))
+    }
+  }
 }

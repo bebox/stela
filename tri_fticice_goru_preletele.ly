@@ -4,7 +4,7 @@
 \header {
   title = "Tri ftičice goru preletele"
   %subtitle = "II."
-  composer = "Rok Mustač. Sv. Marija."
+  composer = "Sv. Marija"
 }
 
 \paper {

@@ -4,8 +4,8 @@
 \header {
   title = "Ftiček veli"
   %subtitle = "II."
-  composer = "Narodna iz Međimurja"
-  arranger = "(Zapisao V. Žganec)"
+  composer = "Međimurje"
+  %arranger = "(Zapisao V. Žganec)"
 }
 
 \paper {

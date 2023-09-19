@@ -29,7 +29,7 @@ chordNames = \chordmode {
   \semiGermanChords
   \set chordChanges = ##t
   e2 e
-  a:7 a4:7 e2
+  h h4 e2
   
 }
 

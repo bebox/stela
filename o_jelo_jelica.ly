@@ -4,7 +4,7 @@
 \header {
   title = "O Jelo Jelica"
   %subtitle = "II."
-  composer = "Magda Rajher. Kotoriba."
+  composer = "Kotoriba"
 }
 
 \paper {
@@ -27,8 +27,8 @@ chordNames = \chordmode {
   \global
   % Chords follow here.
   \set chordChanges = ##t
-  d2 d a:7 d
-  d d4 a:7 d2
+  d2 d a d
+  d d4 a d2
   
 }
 

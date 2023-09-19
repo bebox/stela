@@ -27,7 +27,7 @@ chordNames = \chordmode {
   % Chords follow here.
   \set chordChanges = ##t
   f2 | f | c | c | c |
-  f2 | f | c | c | c4 c:7 | f2 |
+  f2 | f | c | c | c4 c | f2 |
 }
 
 melody = \relative c' {
@@ -63,9 +63,28 @@ verse_dva = \lyricmode {
 \score {
   <<
     \new ChordNames \chordNames
-    \new Staff { \melody }
-    \addlyrics { \verse }
-    \addlyrics { \verse_dva }
+    \new Staff  { \melody  }
+    \addlyrics %\with { \override VerticalAxisGroup.nonstaff-relatedstaff-spacing.padding = #1.5 }
+    { \verse }
+    \addlyrics 
+    { \verse_dva }
   >>
-  \layout { }
+  %\layout {}
+   \layout {
+    \context {
+      \Lyrics
+      \override VerticalAxisGroup.staff-affinity = ##f
+      \override VerticalAxisGroup.staff-staff-spacing =
+        #'((basic-distance . 0)
+	   (minimum-distance . 2)
+	   (padding . 0.8))
+    }
+    \context {
+      \Staff
+      \override VerticalAxisGroup.staff-staff-spacing =
+        #'((basic-distance . 0)
+	   (minimum-distance . 2)
+	   (padding . 2))
+    }
+  }
 }
