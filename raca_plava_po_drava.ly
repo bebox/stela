@@ -27,10 +27,10 @@ chordNames = \chordmode {
   % Chords follow here.
   \set chordChanges = ##t
   \semiGermanChords
-  g2:m d:m d:m
-  g4:m f b2
-  g4:m c:m g2:m
-  d:7 g:m
+  c2:m g:m g:m
+  c2:m es2
+  c4:m b es2
+  g c:m
   
 }
 
@@ -80,5 +80,5 @@ verse_tri = \lyricmode {
     \addlyrics { \verse_dva }
     \addlyrics { \verse_tri }
   >>
-  \layout { }
+  \layout {}
 }

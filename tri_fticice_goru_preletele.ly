@@ -28,11 +28,11 @@ chordNames = \chordmode {
   \set chordChanges = ##t
   \semiGermanChords
   c4 c f c
-  f fis:dim7 g2:7
-  a2:m
-  f2
-  g2.:7 c4
-  
+  f2 g4:7 c4
+  c2
+  g4 c4
+  c2
+  g4 c4
 }
 
 melody = \relative c' {

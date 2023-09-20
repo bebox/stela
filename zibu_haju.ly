@@ -4,7 +4,7 @@
 \header {
   title = "Zibu, haju"
   %subtitle = "II."
-  composer = "Regica Smodek. 86. god. stara. Goričani."
+  composer = "Goričani"
 }
 
 \paper {
@@ -27,11 +27,10 @@ chordNames = \chordmode {
   % Chords follow here.
   \set chordChanges = ##t
   \semiGermanChords
-  e2:m a:m h:7 e:m
-  a1:m
-  g1:m
-  fis2:m7.5-
-  h2:7
+  e2:m a:m c e:m
+  c2 e2:m
+  c1
+  e1:m
 
 }
 

@@ -24,11 +24,13 @@ global = {
 
 chordNames = \chordmode {
   \global
+  \set chordChanges = ##t
+  \semiGermanChords
   % Chords follow here.
-  d4:m a4:7 | d2:m |
+  d2:m | d2:m |
+  b2 | f2 |
   g2:m | d2:m |
-  g2:m | d2:m |
-  a2:7 | d2:m |
+  a2 | d2:m |
 }
 
 melody = \relative c'' {

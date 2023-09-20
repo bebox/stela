@@ -29,12 +29,12 @@ chordNames = \chordmode {
   \semiGermanChords
   e2:m
   a:m
-  e:m
-  h
+  a:m
+  h:7
   e4:m
   a:m
-  e2:m
-  e4:m h
+  h2:7
+  e4:m h:7
   e2:m
 }
 
